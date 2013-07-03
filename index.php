@@ -35,8 +35,8 @@
 	      <div class="nav-collapse collapse">
 	        <!-- .nav, .navbar-search, .navbar-form, etc -->
 		        <ul class="nav">
-					<li class="active"><a href="#festival">Festival</a></li>
-					<li><a href="#about">About</a></li>
+					<li class="active"><a href="#about">About</a></li>
+					<li class="schedule"><a href="#schedule">Schedule</a></li>
 					<li><a href="#board">Boardmembers</a></li>
 					<li><a href="#submission">Submissions</a></li>
 				</ul>
@@ -46,7 +46,10 @@
 	  </div>
 	</div>
 
-	<div id="date">Nov 8-10</div>
+	<div style="text-align:center">
+		<div id="date">Nov 8-10</div>
+	</div>
+
 
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 	<script src="/js/countdown.js"></script>	
@@ -64,12 +67,15 @@
 	<div class="countdown"></div>
 
 
-	<div class="section" id="festival">
-		<h2>Festival Details</h2>
+	<div class="section" id="about">
+		<h2 style="color:#fff">About the Festival</h2>
+		<p>
+			The Harvard College Film Festival is the first ever film festival run by Harvard Students in April 2014. The film festival will provide students within the Harvard community as well as across the nation with an opportunity to create and submit films to be screened, judged by a well-acclaimed panel, and awarded for creative excellence and powerful perspective. The festival will feature multi-day screenings, lectures by judges, networking events, an official after party, and an awards ceremony. Beyond the goal of sharing students' works, The Harvard College Film Festival seeks to strengthen the student film community and to provide a dialogue amongst a network of creative and innovative artists through emphasizing the importance and power of storytelling.
+		</p>
 	</div>
 
-	<div class+"section" id="about">
-		<h2>About the Festival</h2>
+	<div class="section" id="schedule">
+		<h2>Festival Schedule</h2>
 	</div>
 
 	<div class="section" id="board">
