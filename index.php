@@ -47,7 +47,7 @@
 	</div>
 
 	<div style="text-align:center">
-		<div id="date">Nov 8-10</div>
+		<div id="date">April 2014</div>
 	</div>
 
 
@@ -82,8 +82,49 @@
 		<h2>Meet the Board</h2>
 	</div>
 
-	<div class="submissions">
-		<h2>How to Submit</h2>	
+	<div class="section" id="submissions">
+		<h2>Submission Guidelines</h2>	
+		<div id="open">
+			The festival will be open to undergraduate college students across the nation.
+		</div>
+		<p>
+			Students will submit work through Withoutabox, an online submissions service for ﬁlm festivals, in time for two deadlines
+		</p>
+		<div id="date">
+			<b>February 22nd</b><br>
+			<b>March 15th</b>
+		</div>
+		<br><br><br>
+		<div class="row-fluid">
+			<div class="film span6 offset3" id="films">
+				<font style="font-size: 100px">30</font><br>
+				ﬁlms accepted
+			</div>
+		</div>
+		<br><br>
+		<div class="row-fluid" style="margin:0 auto;">
+			<div class="span3 offset1">
+				<div class="cats">animation</div>
+				<div class="cats">comedy</div>
+				<div class="cats">drama</div>
+				<div class="cats">documentary/social change</div>
+			</div>
+			<div class="span4" id="cats">
+				<font style="font-size: 100px">7</font><br>
+				categories
+			</div>
+			<div class="span3">
+				<div class="cats">experimental</div>
+				<div class="cats">international</div>
+				<div class="cats">super shorts<br><small>3 mins max</small></div>
+			</div>
+		</div>
+		<div class="row-fluid">
+			<div class="awards span8 offset2">
+				Awards will be granted in each category along with an <b>Audience Choice Award</b>, a <b>Grand Jury Prize</b>, Harvard prizes for <b>Best Directing</b> and <b>Cinematography</b>, and an <b>award granted by our charitable sponsor</b>. 
+			</div>
+		</div>
+	</p>
 	</div>
 
 	<footer>

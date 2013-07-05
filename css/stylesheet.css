@@ -10,6 +10,17 @@
 }
 
 @font-face {
+    font-family: 'raleway';
+    src: url('/fonts/raleway/raleway-regular-webfont.eot');
+    src: url('/fonts/raleway/raleway-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/raleway/raleway-regular-webfont.woff') format('woff'),
+         url('/fonts/raleway/raleway-regular-webfont.ttf') format('truetype'),
+         url('/fonts/raleway/raleway-regular-webfont.svg#bariol_regularregular') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
     font-family: 'bariol';
     src: url('/fonts/bariol/bariol_regular-webfont.eot');
     src: url('/fonts/bariol/bariol_regular-webfont.eot?#iefix') format('embedded-opentype'),
@@ -22,6 +33,7 @@
 
 body{
 	font-family: "raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: lighter;
 	color: #ffffff;
 }
 
@@ -101,18 +113,19 @@ header{
 /*====================== SECTIONS =================================*/
 
 h2{
-	color: #b2241f;
+	color: inherit;
 	font-family: "raleway";
 	font-size: 45px;
 	padding: 5% 8px 5px 8px;
-	margin: 20px 10%;
+	margin: 10px 10% 20px 10%;
 }
 
 .section p {
 	font-size: 20px;
 	margin:0 10%;
-	padding-bottom: 5%;
-	line-height: 25px;
+	padding-bottom: 2%;
+	line-height: 30px;
+	font-weight: lighter;
 }
 
 #about {
@@ -121,12 +134,126 @@ h2{
 	background-size: cover;
 	background-position: center center;
 	background-attachment: fixed;
-	text-shadow: 1px 1px 0px rgba(0,0,0,0.5);
+	text-shadow: 1px 1px 0px rgba(0,0,0,0.7);
 	border-bottom: 10px dashed #fff;
 	border-top: 10px dashed #fff;
+	padding-bottom: 4%;
 /*	box-shadow:inset 0px 7px 8px rgba(0,0,0,0.3);
 	-webkit-box-shadow:inset 0px 7px 8px rgba(0,0,0,0.3);
 	-moz-box-shadow:inset 0px 7px 8px rgba(0,0,0,0.3);*/
+}
+
+#submissions{
+	color: #fff;
+	background: #b2241f;
+}
+
+#submissions h2{
+	text-shadow: -1px -1px 0px rgba(0,0,0,0.7);
+}
+
+#submissions > #open{
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	background-color: #7b1714;
+	font-size: 25px;
+	font-weight: bold;
+	height: 30px;
+	margin: 2% 10%;
+	display: block;
+	height: auto;
+	line-height: 30px;
+	text-align:center;
+	padding: 2% !important;
+}
+
+#submissions > #date {
+	color: #570d0a;
+	line-height: 50px;
+	/*text-shadow: 1px 1px #e5221b;*/
+	border-bottom: none;
+	/*border-radius: 7px;
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;*/
+	border-width: 2px 0px;
+	border-style: solid;
+	border-color: #570d0a;
+}
+
+.circle {
+	border-radius: 500px;
+	-moz-border-radius: 500px;
+	-webkit-border-radius: 500px;
+	font-family: "bariol";
+	text-align: center;
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+
+.film{
+	font-family: "bariol";
+	text-align: center;
+	margin: 0 10%;
+	border-top: 8px dashed #b2241f;
+	border-bottom: 8px dashed #b2241f;
+}
+
+#films.film{
+	background: #490c0a;
+	color: #fff;
+	font-size: 40px;
+	line-height: 55px;
+	padding-top: 3%;
+	padding-bottom: 2%;
+}
+
+#cats{
+	text-align: center;
+	padding-top: 4%;
+	padding-bottom: 4%;
+	font-family: "bariol";
+	background: #fff;
+	color: #7b1714;
+	font-size: 50px;
+	line-height: 55px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	box-shadow: 0px 0px 10px rgba(123,23,20,0.7);
+	-moz-box-shadow: 0px 0px 10px rgba(123,23,20,0.7);
+	-webkit-box-shadow: 0px 0px 10px rgba(123,23,20,0.7);
+}
+
+.cats{
+	background: rgba(123,23,20,0.5);
+	font-size: 20px;
+	margin: 2% 1%;
+	padding: 5% 2%;
+	text-align: center;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	text-transform: uppercase;
+}
+
+.cats:hover{
+	background: rgba(123,23,20,0.3);
+}
+
+.awards {
+	margin-top: 3%;
+	line-height: 50px;
+	font-size: 25px;
+	text-shadow: 2px 2px 0px rgba(123,23,20,1);
+}
+
+.awards b{
+	background: rgba(123,23,20,1);
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	padding: 3px 5px;
 }
 
 /*========================== FOOTER ================================*/
