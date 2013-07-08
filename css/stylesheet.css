@@ -91,6 +91,12 @@ header{
   text-align:center;
 }
 
+.navbar.top-sticky{
+	position: fixed;
+	top: 0px;
+	left: 0px;
+}
+
 /*======================= COUNTDOWN ==============================*/
 
 .countdown {
@@ -122,20 +128,20 @@ h2{
 
 .section p {
 	font-size: 20px;
-	margin:0 10%;
+	margin: 0px 10%;
 	padding-bottom: 2%;
 	line-height: 30px;
 	font-weight: lighter;
 }
 
 #about {
-	margin: 5% 0px;
+	margin: 0px 0px;
 	background-image: url('/img/photo-ab.jpg');
 	background-size: cover;
 	background-position: center center;
 	background-attachment: fixed;
 	text-shadow: 1px 1px 0px rgba(0,0,0,0.7);
-	border-bottom: 10px dashed #fff;
+	border-bottom: 10px dashed #202020;
 	border-top: 10px dashed #fff;
 	padding-bottom: 4%;
 /*	box-shadow:inset 0px 7px 8px rgba(0,0,0,0.3);
@@ -254,6 +260,67 @@ h2{
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
 	padding: 3px 5px;
+}
+
+#schedule {
+	background-color: #202020;
+	margin: 0px 0px;
+	padding-bottom: 4%;
+	font-size: 25px;
+	color: #c0c0c0;
+	line-height: 40px;
+}
+
+#schedule h3{
+	background: #fff;
+	color: #000;
+	padding: 1%;
+	text-transform: uppercase;
+	font-family: "bariol";
+	border-radius: 80px;
+	-webkit-border-radius: 80px;
+	-moz-border-radius: 80px;
+	text-align: center;
+	width: 20%;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	margin: 2% auto;
+}
+
+#schedule h4, #schedule h2{
+	color: #fff;
+}
+
+#schedule h4 {
+	display: inline-block;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+#board{
+	color: #000;
+}
+
+#board table{
+	font-size: 18px;
+	font-family: "raleway";
+	font-weight: bold;
+}
+
+#board .table {
+	border-spacing: 10px;
+}
+
+#board .table td{
+	padding: 20px;
+}
+
+#board .name {
+	color: #7b1714;
+	font-size: 25px;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
 }
 
 /*========================== FOOTER ================================*/

@@ -12,7 +12,7 @@
 
   <body>
   	
-  	<header>
+  	<header id="header">
   		<img id="logo" src="/img/logo.png">
   		<br><br>
   		<h1>the stories we tell.</h1>
@@ -38,7 +38,7 @@
 					<li class="active"><a href="#about">About</a></li>
 					<li class="schedule"><a href="#schedule">Schedule</a></li>
 					<li><a href="#board">Boardmembers</a></li>
-					<li><a href="#submission">Submissions</a></li>
+					<li><a href="#submissions">Submissions</a></li>
 				</ul>
 	      </div>
 	 
@@ -52,7 +52,8 @@
 
 
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-	<script src="/js/countdown.js"></script>	
+	<script src="/js/countdown.js"></script>
+	<script src="/js/nav.js"></script>	
   	<script type="text/javascript">
 	$(function() {
 	    $('.countdown').countdown({
@@ -64,22 +65,111 @@
 	});
 	</script>
 
-	<div class="countdown"></div>
+	<div class="countdown" style="margin-bottom: 8%;"></div>
 
 
-	<div class="section" id="about">
+	<div class="section row" id="about">
 		<h2 style="color:#fff">About the Festival</h2>
 		<p>
 			The Harvard College Film Festival is the first ever film festival run by Harvard Students in April 2014. The film festival will provide students within the Harvard community as well as across the nation with an opportunity to create and submit films to be screened, judged by a well-acclaimed panel, and awarded for creative excellence and powerful perspective. The festival will feature multi-day screenings, lectures by judges, networking events, an official after party, and an awards ceremony. Beyond the goal of sharing students' works, The Harvard College Film Festival seeks to strengthen the student film community and to provide a dialogue amongst a network of creative and innovative artists through emphasizing the importance and power of storytelling.
 		</p>
 	</div>
 
-	<div class="section" id="schedule">
+	<div class="section row" id="schedule">
 		<h2>Festival Schedule</h2>
+		<div class="span10 offset2">
+			<h3>Day 1</h3>
+			<h4>Student Screenings</h4> 15 ﬁlms will be screened. 10 in the main theater location and 5 in a smaller Harvard University room (Fong Auditorium)
+			<br><br>
+			<h4>Opening Speaker</h4> Ideally this will be someone who has ﬁlm material to show. Will screen clips of new material and give talk followed by moderated Q & A
+			<br><br>
+			<h4>Sponsored After Party</h4> Open tent event in Science Center Plaza with DJ, food, drink, and videos being screened. If cannot secure Science Center Plaza then Northwest Labs Basement. 
+			<br><br>
+			<h3>Day 2</h3>
+			<h4>Student Screenings</h4> 15 ﬁlms will be screened. 10 in the main theater location and 5 in a smaller Harvard University room
+			<br><br>
+			<h4>Networking Event</h4> Professors from ﬁlm departments, industry professionals. This will take place in a Harvard University location like Ticknor Lounge or Northwest Labs.
+			<br><br>
+			<h4>Panel</h4> 6 industry professionals in a variety of roles will speak about their experiences guided by a moderator.
+			<br><br>
+			<h3>Day 3</h3>
+			<h4>Closing Keynote Speaker</h4> A famous person in the industry to draw attention to the closing event.
+			<br><br>
+			<h4>Awards Ceremony</h4> Awards administered by 3 judges. Acknowledgement of the efforts of all students involved in addition to speciﬁc category awards. Step and repeat photos of participants with judges
+			<br><br>
+		</div>
 	</div>
 
 	<div class="section" id="board">
 		<h2>Meet the Board</h2>
+		<br>
+		<div class="row">
+			<div class="span10 offset2">
+		<table class="table" cellspacing="10">
+			<tr>
+				<td class="name">Nicole Delany</td> 
+				<td>Co Founder and Executive Event Planner</td>
+				<td><a href="mailto:ndelany@college.harvard.edu">ndelany@college.harvard.edu</a></td>
+			</tr>
+			<tr>
+				<td class="name">Daniel Citron</td>
+				<td>Co Founder and Executive Production Manager</td>
+				<td><a href="mailto:danielcitron@college.harvard.edu">danielcitron@college.harvard.edu</a></td>
+			</tr>
+			<tr>
+				<td class="name">Chloe George</td>
+				<td>Fundraising and Community Outreach Chair</td>
+				<td><a href="Chloegeorge@college.harvard.edu">chloegeorge@college.harvard.edu</a></td>
+			</tr>
+			<tr>
+				<td class="name">Julianna Aucoin</td>
+				<td>Fundraising Chair</td>
+				<td><a href="jaucoin@college.harvard.edu">jaucoin@college.harvard.edu</a></td>
+			</tr>
+			<tr>
+				<td class="name">Allen MacLeod</td>
+				<td>Marketing Manager</td>
+				<td><a href="macleod@college.harvard.edu">macleod@college.harvard.edu</a></td>
+			</tr>
+			<tr>
+				<td class="name">Kristine Quiroz</td>
+				<td>Event Manager</td>
+				<td><a href="kquiroz@college.harvard.edu">kquiroz@college.harvard.edu</a></td>
+			</tr>
+			<tr>
+				<td class="name">Khalea Francis</td>
+				<td>Event Coordinator Assitant</td>
+				<td><a href="kfrancis@college.harvard.edu">kfrancis@college.harvard.edu</a></td>
+			</tr>
+			<tr>
+				<td class="name">Brenna McDuffie</td>
+				<td>Event Coordinator Assistant</td>
+				<td><a href="bmcduffie@college.harvard.edu">bmcduffie@college.harvard.edu</a></td>
+			</tr>
+			<tr>
+				<td class="name">Jennifer Wang</td>
+				<td>Event Coordinator Assitant</td>
+				<td><a href="jiaxinwang@college.harvard.edu">jiaxinwang@college.harvard.edu</a></td>
+			</tr>
+			<tr>
+				<td class="name">Zachary Wong</td>
+				<td>Production Manager</td>
+				<td><a href="zacharywong@college.harvard.edu">zacharywong@college.harvard.edu</a></td>
+			</tr>
+			<tr>
+				<td class="name">Selina Wang</td>
+				<td>HUTV President</td>
+				<td><a href="selinawang@college.harvard.edu">selinawang@college.harvard.edu</a></td>
+			</tr>
+			<tr>
+				<td class="name">Briana Belser</td>
+				<td>Public Relations Manager</td>
+				<td><a href="brianabelser@college.harvard.edu">brianabelser@college.harvard.edu</a></td>
+			</tr>
+
+				</table>
+			</div>
+		</div>
 	</div>
 
 	<div class="section" id="submissions">
@@ -130,7 +220,6 @@
 	<footer>
 		&copy; 2013 Harvard College Film Festival
 	</footer>
-
   	<script src="/js/bootstrap.js"></script>
   </body>
 </html>
